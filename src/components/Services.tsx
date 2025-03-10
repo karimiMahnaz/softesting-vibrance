@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useIntersectionObserver } from '../utils/animations';
-import { Code, Lightbulb, Flask, GitPullRequest } from 'lucide-react';
+import { Code, Lightbulb, Beaker, GitPullRequest } from 'lucide-react';
 import Button from './Button';
 
 interface ServiceCardProps {
@@ -42,7 +42,7 @@ const services = [
     description: "Cutting-edge development using modern frameworks and technologies, creating scalable and maintainable solutions."
   },
   {
-    icon: <Flask size={24} className="text-softesting-accent" />,
+    icon: <Beaker size={24} className="text-softesting-accent" />,
     title: "Quality Assurance",
     description: "Comprehensive testing strategies that ensure software reliability, performance, and security across all platforms."
   },
